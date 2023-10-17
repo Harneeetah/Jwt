@@ -1,0 +1,5 @@
+20231017	12:53:34	33e8820f-bb53-436e-a2e6-577cf254b574	GET	undefined	/auth
+20231017	12:53:34	2ef375e7-a86a-47a1-ae83-7b09a44f1f19	Error: ENOENT: no such file or directory, stat 'C:\Users\Admin\Jwt\views\404.html'
+20231017	12:54:08	275dd889-1ed4-4ed5-a633-d1d0886c002c	GET	undefined	/employees
+20231017	12:54:10	63410ed5-883a-4e87-ac2c-c4f0101d76a8	GET	undefined	/employees
+20231017	12:56:56	8ac6073c-2ed4-4e64-915e-cac0e0248cd9	POST	undefined	/auth
