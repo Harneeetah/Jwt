@@ -3,3 +3,6 @@
 20231017	12:54:08	275dd889-1ed4-4ed5-a633-d1d0886c002c	GET	undefined	/employees
 20231017	12:54:10	63410ed5-883a-4e87-ac2c-c4f0101d76a8	GET	undefined	/employees
 20231017	12:56:56	8ac6073c-2ed4-4e64-915e-cac0e0248cd9	POST	undefined	/auth
+20231017	17:57:49	33a86bb9-364f-4601-9930-d2546c5ed797	POST	undefined	/register
+20231017	18:06:05	9572bcb4-42dc-49f9-a2a8-0f634c7e84c8	POST	undefined	/register
+20231019	11:07:03	42a39380-04ec-4f3c-8769-6b0de0e75785	POST	undefined	/auth

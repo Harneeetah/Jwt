@@ -5,6 +5,7 @@ const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
 const {logger} = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler.js');
+const verifyJWT = require('./middleware/verifyJWT');
 const PORT = process.env.PORT || 3000 ;
 
 
@@ -26,7 +27,10 @@ app.use(express.json());
 app.use('/', require('./routes/root'));
 app.use('/register', require('./routes/register'));
 app.use('/auth', require('./routes/auth'));
+app.use(verifyJWT);
 app.use('/employees', require('./routes/api/employees'));
+
+
 
  //handles all requests to web address
  app.all('*', (req, res) => {
